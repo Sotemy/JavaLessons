@@ -1,9 +1,9 @@
 # Java lessons
 I'm just learning <b>Java</b>
-<h4>Middle target</h4>
+<h2>Middle target</h2>
 <b>Mobile Apps</b> on java
-<h4>Main target</h4>
+<h2>Main target</h2>
 Working with <b>frameworks</b>
 
-<h4>Next step</h4>
+<h2>Next step</h2>
 <b>C#</b>
