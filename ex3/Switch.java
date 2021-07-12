@@ -2,17 +2,12 @@ package ex3;
 
 public class Switch {
     public static void main(String[] args){
-        int month = 2, year = 2001, num = 31;
+        int month = 2, year = 2016, days = 31;
         switch (month){
-            case 4 : case 6 : case 9 : case 11 : num = 30; break;
-            case 2 : num = (year % 4 == 0) ? 29:28; break;
+            case 4 : case 6 : case 9 : case 11 : days = 30; break; // if month = {4, 6, 9, 11} : days = 30
+            case 2 : days = (year % 4 == 0) ? 29:28; break; // if month = 2 :  days /(module) == 0 => 29 or 28 days
+        
         }
-        System.out.println( month+"/"+year+": "+num+"дней" );
-        int ptn = 1;
-        String ptnvr = "Ptnvr";
-        switch(year){
-            case 2000 : case 2010 : case 2020 : case 2222 : System.out.println(ptnvr); break;
-            case 2021 : ptn = (year - 2000); System.out.println(ptn); break; 
-        }
+        System.out.println(month+"/"+year+": "+days+" дней");   
     }
 }
